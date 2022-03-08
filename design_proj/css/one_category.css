@@ -1,0 +1,14 @@
+.one-category{
+    padding: 120px 0px;
+    background: #222222;
+}
+
+.one-category_flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.katalog-slaider_slaid__item{
+    margin-top: 50px;
+}

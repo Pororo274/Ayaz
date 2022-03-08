@@ -1,0 +1,226 @@
+
+.profile{
+    padding-top: 77px;
+    padding-bottom: 207px;
+}
+
+.profile_name{
+    display: flex;
+    align-items: center;
+}
+
+.profile_surname{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 44px;
+}
+
+.profile_email{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.profile_surname-email{
+    margin-left: 33px;
+}
+
+.profile_user{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_about_zaglav{
+    margin-bottom: 20px;
+}
+
+.profile_text{
+    font-size: 18px;
+    font-weight: 400;
+    width: 398px;
+}
+
+.profile_form_item{
+    width: 630px;
+    margin-bottom: 20px;
+}
+
+.profile_form{
+    width: 630px;
+}
+
+.profile_about{
+    width: 398px;
+}
+
+
+.profile_form_checkbox{
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.profile_checkbox_item{
+    margin-right: 25px;
+}
+
+.profile_checkbox[type="radio"]:checked + .profile_label::before{
+    border: 4px solid #ECB968;
+}
+
+.profile_checkbox[type="radio"]{
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+
+.profile_label::before{
+    display: inline-block;
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-right: 8px;
+}
+
+
+.bottom0{
+    margin-bottom: 0px;
+}
+
+.profile_button{
+    width: 191px;
+    margin-top: 50px;
+    background: #D1D1D1;
+    color: #B2B2B2;
+}
+
+.margin140{
+    margin-top: 140px;
+}
+
+.profile_right{
+    display: flex;
+}
+
+.profile_courses{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_item{
+    display: flex;
+    padding: 20px;
+    background: #4C2B81;
+    width: 483px;
+    border-radius: 5px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile_item_p{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 121px;
+}
+
+.profile_item2{
+    background: #ECB968;
+    margin-left: 40px;
+}
+
+.profile_courses_flex{
+    display: flex;
+}
+
+@media(max-width:1250px){
+    .profile_courses{
+        flex-direction: column;
+    }
+
+    .courses_zaglav{
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:1060px){
+    .profile_user{
+        flex-direction: column;
+    }
+
+    .profile_text{
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:700px)
+{
+    .profile_courses_flex{
+     flex-direction: column;
+    }
+
+    .profile_item2{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .profile_item{
+        width: 100%;
+    }
+
+    .profile_form_item{
+        width: 100%;
+    }
+
+    .profile_form{
+        width: 100%;
+    }
+}
+
+@media(max-width:414px){
+    .profile_surname{
+        font-size: 18px;
+    }
+
+    .profile_name-email{
+        font-size: 10px;
+    }
+
+    .profile_iconman>img{
+        width: 70px;
+    }
+
+    .profile_about_zaglav{
+        font-size: 18px;
+    }
+
+    .profile_text{
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .courses_zaglav{
+        font-size: 18px;
+    }
+
+    .profile_about{
+        width: 100%;
+    }
+
+    .profile_item_desc>p{
+        font-size: 12px;
+    }
+
+    .profile_item_img>img{
+        width: 76px;
+    }
+    .profile_item_p{
+        margin-bottom: 86px;
+    }
+}

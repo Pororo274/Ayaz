@@ -1,0 +1,229 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 120%;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class], li {
+  list-style: none;
+}
+
+/* Элементы a сбрасываем до дефолтных стилей */
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: 0;
+  border: none;
+}
+
+.wrapper {
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.header {
+    background: #15191B;
+    width: 100%;
+}
+
+.header__container, .container {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 12px 20px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.menu__link {
+    color: #FFFFFF;
+}
+
+.menu__link {
+    position: relative;
+}
+
+.menu__link:after {
+    content: "";
+    position: absolute;
+    background-color: #185FED;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.menu__link:hover:after {
+    width: 100%;
+}
+
+.menu__link:hover {
+    color: #C7C7C7;
+    transition: 0.5s;
+}
+
+.enter__icon {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.enter__icon:hover {
+    color: #C7C7C7;
+    transition: 0.5s;
+}
+
+.header__button {
+    width: 294px;
+    height: 66px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(145.01deg, #9043F2 -25.18%, #1FC9FF 98.57%, #FF1FB3 132.53%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header__button:hover {
+    background: linear-gradient(145.01deg, #6F2DC4 -25.18%, #199BC5 132.53%);
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 117px;
+}
+
+.main__header {
+    font-weight: 900;
+    font-size: 54px;
+    line-height: calc(66 / 54 * 100%);
+}
+
+.main__table {
+    margin-top: 60px;
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    width: 100%;
+}
+
+.table__header {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: calc(22 / 18 * 100%);
+    color: #9E9E9E;
+}
+
+.table__header, .table__element {
+    text-align: left;
+}
+
+.table__header:not(:last-child){
+    padding-right: 89px;
+}
+
+.table__element__list {
+    border: 1px solid #9E9E9E;
+}
+
+.table__element {
+    padding: 30px 0px;
+}
+
+.table__element:last-child, .table__header:last-child{
+    padding-right: 37px;
+}
+
+.table__element:first-child, .table__header:first-child{
+    padding-left: 37px;
+}
+
+table td:first-child {
+    margin-top: 30px;
+}
+
+.table__header {
+    padding-bottom: 20px;
+}
+
+td { 
+    border-bottom: 1px solid #ccc; 
+    color: #669; 
+}
+
+
+tr:not(:first-child):hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(145.01deg, #9043F2 -25.18%, #1FC9FF 98.57%, #FF1FB3 132.53%);
+    cursor: pointer;
+}
+
+tr:not(:first-child):hover>td {
+    color: #FFFFFF;
+}

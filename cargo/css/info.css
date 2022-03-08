@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Mon';
+    src: url(../fonts/mona/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Mon';
+    src: url(../fonts/mona/Montserrat-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Mon';
+    src: url(../fonts/mona/Montserrat-Black.ttf);
+    font-weight: 900;
+}
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mon';
+}
+
+.inner{
+    width: 1290px;
+    margin: 0 auto;
+}
+
+.zaglav{
+    margin-top: 160px;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.text_logo{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.pt{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.but{
+    width: 256px;
+    height: 66px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #9E9E9E;
+    border: 2px solid #9E9E9E;
+    margin-left: 40px;
+    background: none;
+    cursor: pointer;
+}
+
+.zakaz{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.but_zakaz{
+    display: flex;
+}
+
+.but:hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(145.01deg, #9043F2 -25.18%, #1FC9FF 98.57%, #FF1FB3 132.53%);
+    color: white;
+    border: none;
+}
+
+.pext{
+    font-size: 22px;
+    color: #9E9E9E;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.t2{
+    color: #000;
+}
+
+.zaglav1{
+    font-size: 31px;
+    font-weight: 900;
+    margin-bottom: 55px;
+}
+
+.info{
+    margin-top: 70px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.info2{
+    margin-left: 325px;
+}
+
+.l{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.l2{
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.konec{
+    text-align: right;
+}
+

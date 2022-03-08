@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'Mon';
+    src: url(../fonts/mona/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Mon';
+    src: url(../fonts/mona/Montserrat-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Mon';
+    src: url(../fonts/mona/Montserrat-Black.ttf);
+    font-weight: 900;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mon';
+}
+
+.container{
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.head{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav>ul>li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.head>.nav>ul>li>.a9{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+.enter>a{
+    font-size: 44px;
+    color: white;
+}
+
+
+.logo>img{
+    width: 140px;
+}
+
+header{
+    background: #000;
+}
+
+/* glav */
+
+.zagol{
+    text-align: center;
+    font-size: 54px;
+    font-weight: 900;
+    margin-top: 120px;
+    margin-bottom: 65px;
+}
+
+.inp{
+    text-align: center;
+}
+
+.inpt{
+    width: 652px;
+    outline: none;
+    padding: 27px 0px;
+    padding-left: 33px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 2px solid #9E9E9E;
+    margin-bottom: 35px;
+}
+
+.names{
+    width: 652px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 500;
+    color: #9E9E9E;
+    margin-bottom: 20px;
+}
+
+.card{
+    display: flex;
+    width: 652px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+.card1:hover{
+    width: 170px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(145.01deg, #9043F2 -25.18%, #1FC9FF 98.57%, #FF1FB3 132.53%);
+    border-radius: 10px;
+    height: 209px;
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border:none;
+}
+
+.card1:hover .iml1{
+    color: white;
+}
+
+.card1:hover .ofor1{
+    display: block;
+}
+
+.card1:hover .ofor11{
+    display: none;
+} 
+.iml{
+    width: 108px;
+    height: 108px;
+    margin: auto;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.card1{
+    width: 170px;
+    border-radius: 10px;
+    height: 209px;
+    font-size: 22px;
+    font-weight: 500;
+    border: 2px solid #9E9E9E
+}
+
+.iml1{
+    background: none;
+    color: #9E9E9E;
+    width: 108px;
+    height: 108px;
+    margin: auto;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+}
+ 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+
+.buy{
+    margin-top: 65px;
+    text-align: right;
+}
+
+.bp{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.bpp{
+    font-weight: 900;
+    font-size: 56px;
+    margin-bottom: 50px;
+}
+
+.buttton{
+    margin-bottom: 131px;
+}
+
+.buttt{
+    border: 2px solid #9E9E9E;
+    width: 250px;
+    height: 66px;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    cursor: pointer;
+    color:#9E9E9E;
+}
+
+.buttt:hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(145.01deg, #9043F2 -25.18%, #1FC9FF 98.57%, #FF1FB3 132.53%);
+    ;
+    color: white;
+    border: none;
+}
+
+.bt{
+    margin-right: 0px;
+}
+
+.iml>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.ofor1{
+    display: none;
+}

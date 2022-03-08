@@ -1,0 +1,536 @@
+.course_header_container{
+
+    max-width: 1400px;
+
+
+    margin: auto;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 90px;
+
+}
+
+
+.course_header_desc{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+}
+
+.course_header_desc>h1{
+
+    font-size: 64px;
+
+    font-family: 'RobotoSlab';
+    margin-bottom: 21px;
+
+}
+
+.course_header_desc>p{
+
+    font-size: 22px;
+
+    font-weight: 400;
+
+    width: 500px;
+    margin-bottom: 31px;
+
+}
+
+.course_button{
+
+    display: block;
+
+    background-color: #ECB968;
+
+    padding: 10px;
+
+    min-width: 50px;
+
+    color:white;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.course_button:hover{
+    background: #c59a54;
+}
+
+
+
+.course_description_container{
+
+    max-width: 1400px;
+
+    padding: 0 5px;
+
+    margin: auto;
+
+    margin-top: 195px;
+
+}
+
+.course_description_container>h2{
+
+    font-size: 36px;
+
+    margin-bottom: 60px;
+
+}
+
+.course_programm{
+
+    background-color: #ECB968;
+
+
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    border-radius: 5px;
+
+    color:white;
+
+    font-weight: 500;
+
+}
+
+.course_programm:nth-child(2n){
+
+    background-color: #4C2B81;
+
+}
+
+.course_programm_p1{
+
+margin-bottom: 15px;
+
+}
+
+.course_programm_h3{
+    margin-bottom: 18px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.course_programm_desc{
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+    width: 700px;
+
+    padding: 57px 0px;
+
+}
+
+.course_price{
+
+    background-image: url('../img/course_price.png');
+
+    background-repeat: no-repeat;
+
+    background-position: top right;
+
+    margin-top: 100px;
+
+    padding: 54px;
+}
+
+.course_price_container{
+
+    max-width: 1400px;
+
+    padding: 0 5px;
+
+    margin: auto;
+
+}
+
+.course_price_container>p{
+
+    font-size: 32px;
+    margin-bottom: 50px;
+    font-weight: 600;
+
+}
+
+.course_price_container>h2{
+
+    font-size: 96px;
+
+}
+
+
+
+.course_pay_container{
+
+    max-width: 1400px;
+
+    padding: 0 5px;
+
+    margin: auto;
+
+    margin-bottom: 196px;
+    margin-top: 100px;
+
+}
+
+.course_pay_type{
+
+    display: flex;
+
+    margin-bottom: 50px;
+
+}
+
+.course_pay_type>a{
+
+    display: block;
+
+    margin-right: 10px;
+
+    padding: 16px 26px;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.course_pay_type_button:hover{
+
+    background-color: #4C2B81;
+
+    color:white;
+
+}
+
+.course_pay_type_button{
+
+    color:black;
+
+    border:1px solid gray;
+
+}
+
+
+
+.course_pay_form{
+
+    max-width: 435px;
+
+}
+
+.form_row{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 20px;
+
+    width: 225px;
+
+}
+
+.form_row>input{
+
+    display: block;
+
+
+    padding: 10px 13px;
+
+    border-radius: 5px;
+
+    border: 1px solid #D7D7D7;
+    outline: none;
+    margin-right: 20px;
+}
+
+.form_row>input::placeholder{
+    color: #989898;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.course_pay_form>input[type="submit"]{
+
+    background-color: #ECB968;
+
+    padding: 16px 66px;
+
+    color: white;
+
+    border: 0;
+
+    border-radius:5px;
+
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+}
+
+.course_pay_form>input[type="submit"]:hover
+{
+    background: #c59a54;
+}
+
+.course_pay_form{
+
+    font-size: 12px;
+
+    font-weight: 400;
+
+}
+
+.course_text{
+    font-size: 10px;
+    font-weight: 400;
+    color: #989898;
+    max-width: 225px;
+}
+
+.course_pay_form_select{
+    display: none;
+}
+
+/*rrrrrrrrr  */
+
+.form_radio_btn {
+	display: inline-block;
+	margin-right: 20px;
+}
+.form_radio_btn input[type=radio] {
+	display: none;
+}
+.form_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 16px 0px;
+    width: 225px;
+	border: 1px solid #D7D7D7;
+	border-radius: 5px;
+	user-select: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+ 
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+	background: #4C2B81;
+    color: white;
+}
+
+.form_radio_btn input[type=radio]:checked + label .course_pay_type_button{
+	display: none;
+}
+ 
+ 
+/* Hover */
+.form_radio_btn label:hover {
+	color: #666;
+}
+ 
+/* Disabled */
+.form_radio_btn input[type=radio]:disabled + label {
+	background: #efefef;
+	color: #666;
+}
+
+/*  */
+@media(max-width:1460px){
+    .course_description_container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .course_header_container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width:1000px){
+    .course_header_image{
+        display: none;
+    }
+}
+
+@media(max-width:1130px){
+    .course_programm_img{
+        display: none;
+    }
+}
+
+@media(max-width:530px){
+    .course_header_desc>p{
+        width: 100%;
+    }
+
+    .course_price_container>p{
+        width: 100%;
+    }
+}
+
+@media(max-width:1500px){
+    .course_price{
+        background-image: none;
+    }
+}
+
+@media(max-width:650px){
+    .course_price_container>h2{
+        font-size: 60px;
+    }
+    .course_price_container>p{
+        font-size: 28px;
+    }
+
+    .course_price{
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width:450px){
+    .form_row{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form_row_inpt{
+        margin-bottom: 20px;
+    }
+
+    .course_pay_form_but{
+        width: 100%;
+    }
+
+    .course_header_desc>h1{
+        font-size: 50px;
+    }
+}
+
+@media(max-width:414px){
+    .course_header_desc>h1{
+        font-size: 26px;
+    }
+
+    .course_header_desc>p{
+        font-size: 14px;
+    }
+
+    .course_button{
+        width: 100%;
+        text-align: center;
+    }
+
+    .course_description_container>h2{
+        font-size: 26px;
+        margin-bottom: 26px;
+    }
+
+    .course_description_container{
+        margin-top: 60px;
+    }
+
+    .course_header_container{
+        margin-top: 60px;
+    }
+
+    .course_programm_p1, .course_programm_p{
+        font-size: 10px;
+    }
+
+    .course_programm_h3{
+        font-size: 12px;
+    }
+
+    .course_programm_desc{
+        padding-top: 12px;
+        padding-bottom: 39px;
+    }
+
+    .course_price{
+        margin-top: 38px;
+    }
+
+    .course_price_container>p{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .course_pay_container{
+        margin-top: 43px;
+    }
+
+    .course_pay_type>a{
+        display: none;
+    }
+
+    .course_pay_form_select{
+        display: block;
+        width: 100%;
+    }
+
+    .pay_select{
+        width: 100%;
+        padding: 15px 0px;
+        padding-left: 15px;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        background: #4C2B81;
+        border-radius: 10px;
+    }
+
+    .pay_option{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .course_pay_type{
+        margin-bottom: 37px;
+    }
+
+    .course_pay_form_but{
+        margin-top: 30px;
+    }
+
+    .form_row>input{
+        margin-right: 0px;
+    }
+
+    .course_text{
+        max-width: 325px;
+    }
+}
+

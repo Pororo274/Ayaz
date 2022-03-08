@@ -1,0 +1,43 @@
+.container_auth{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    display: flex;
+    background: url('../img/auth.png');
+    background-repeat: no-repeat;
+}
+
+body{
+    background: #222222;
+}
+
+.button_auth{
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.auth_okno{
+    width: 954px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    margin: auto;
+    text-align: right;
+    padding: 95px 132px;
+}
+
+.auth_input{
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+
+.auth_zaglav{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+.input_padding{
+    margin-bottom: 80px;
+}

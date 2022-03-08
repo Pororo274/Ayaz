@@ -1,0 +1,51 @@
+.course-info_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-info_form{
+    width: 630px;
+}
+
+.course-info_zaglav{
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.course-info_form_item{
+    margin-bottom: 20px;
+}
+
+.course-info{
+    padding-top: 79px;
+    padding-bottom: 172px;
+}
+
+.course-info_button{
+    width: 176px;
+    margin-top: 42px;
+}
+
+.bottom0{
+    margin-bottom: 0;
+}
+
+@media(max-width:1050px){
+    .course-info_img{
+        display: none;
+    }
+
+}
+
+@media(max-width:655px){
+    .course-info_button{
+        width: 100%;
+    }
+}
+
+@media(max-width:414px){
+    .course-info_zaglav{
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,360 @@
+@font-face {
+    font-family: 'Ralewey';
+    src: url(../fonts/ralewey/Raleway-Black.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(../fonts/ralewey/Raleway-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(../fonts/ralewey/Raleway-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Mon';
+    src: url(../fonts/mona/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Mon';
+    src: url(../fonts/mona/Montserrat-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Mon';
+    src: url(../fonts/mona/Montserrat-Black.ttf);
+    font-weight: 900;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mon';
+}
+.container{
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.head{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav>ul>li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.head>.nav>ul>li>.a9{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+.enter>a{
+    font-size: 44px;
+    color: white;
+}
+
+.head>.nav>ul>li::before{
+    content: "";
+    border-bottom: 2px solid #9043F2;
+    left: 50%;
+}
+
+.head>.nav>ul>li:hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(145.01deg, #9043F2 -25.18%, #1FC9FF 98.57%, #FF1FB3 132.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+}
+
+.logo>img{
+    width: 140px;
+}
+
+.main{
+    background-image: url(../img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* -------------ГЛавная */
+.slogan{
+    font-size: 54px;
+    font-weight: 900;
+    max-width: 724px;
+    color: white;
+    margin-top: 200px;
+}
+
+.small_slogan{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    max-width: 457px;
+    margin-top: 20px;
+    margin-bottom: 56px;
+}
+
+.but>button{
+    width: 290px;
+    height: 65px;
+    font-size: 18px;
+    font-weight: 500;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(145.01deg, #9043F2 -25.18%, #1FC9FF 98.57%, #FF1FB3 132.53%);
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    transition:all 0.3s ease;
+
+}
+
+.but>button:hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(145.01deg, #1FC9FF -25.18%, #9043F2 96.38%);
+    transform: scale(1.1);
+}
+
+.but{
+    padding-bottom: 90px;
+}
+
+/* =-===========our */
+.our{
+    padding: 110px 0px;
+}
+
+.zaglavv{
+    font-size: 46px;
+    font-weight: 900;
+    margin-bottom: 105px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    background: url(../img/rec.png) no-repeat;
+}
+
+.zaglav{
+    margin-left: 42px;
+}
+
+.name_prem{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cargo{
+    width: 290px;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 43px;
+    color: white;
+    font-weight: 900;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(145.01deg, #9043F2 -25.18%, #1FC9FF 98.57%, #FF1FB3 132.53%);
+}
+
+.prem1{
+    margin-bottom: 45px;
+    margin-right: 45px;
+    text-align: center;
+}
+
+.prem{
+    display: flex;
+}
+
+.p1{
+    font-weight: 900;
+    font-size: 29px;
+    margin-bottom: 30px;
+}
+.p2{
+    font-size: 18px;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin-left: 50px;
+}
+
+
+/* =-===========uslygi */
+
+.service{
+    background: #15191B;
+    padding: 110px 0px;
+}
+.service>.container>.zaglavv>.zaglav{
+    color: white;
+}
+.p3{
+    padding: 32px 0 23px 23px ;
+    font-size: 31px;
+    font-weight: 900;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+}
+.a1{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.a2{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(145.01deg, #9043F2 -25.18%, #1FC9FF 98.57%, #FF1FB3 132.53%);
+    border-radius: 10px;
+}
+.a2>.p3{
+    color: white;
+}
+.p4{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    padding: 32px 0 23px 23px ;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(145.01deg, #9043F2 -25.18%, #1FC9FF 98.57%, #FF1FB3 132.53%);
+}
+.p5{
+    background: none;
+}
+.liner{
+    margin-bottom: 20px;
+}
+
+/*----------- otzv */
+
+.otziv{
+    width: 1194px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 85px;
+    font-size: 18px;
+}
+
+.name_otzv{
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    margin-bottom: 22px;
+}
+
+.text_otzv{
+    flex: 1;
+    margin-left: 30px;
+}
+
+.star>ul>li{
+    text-decoration: none;
+    display: inline;
+}
+
+.text_os{
+    width: 900px;
+}
+
+
+.ppp{
+    font-weight: 500;
+}
+
+.v{
+    margin-bottom: 0px;
+}
+
+.slaider{
+    display: flex;
+    justify-content: space-between;
+    width: 592px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.ch>ul>li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.li1{
+    margin-right: 0px;
+}
+
+/* ============ВОПРОСЫ */
+
+.question>.container>.zaglavv>.zaglav{
+    color: white;
+}
+
+.question{
+    background: #15191B;
+}
+
+.que{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 41px 47px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+/* foooterrr */
+
+.a6{
+    color: #15191B;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.enter>.a0{
+    color: #15191B;
+}
+
+.potvet{
+    padding: 30px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(145.01deg, #9043F2 -25.18%, #1FC9FF 98.57%, #FF1FB3 132.53%);
+    ;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    display: none;
+}
+
+.que:hover .potvet{
+    display: block;
+    margin-top: 20px;
+}
+
+.que:hover .arr{
+    display: none;
+}

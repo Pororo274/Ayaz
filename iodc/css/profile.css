@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('../fonts/RobotoSlab-Bold.ttf');
+    font-weight: 700;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.profile{
+    padding-top: 77px;
+    padding-bottom: 207px;
+}
+
+.profile_name{
+    display: flex;
+    align-items: center;
+}
+
+.profile_surname{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 44px;
+}
+
+.profile_email{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.profile_surname_email{
+    margin-left: 33px;
+}
+
+.profile_user{
+    margin-top: 90px;
+}
+
+.profile_about_zaglav{
+    font-family: 'RabotoSlad';
+}

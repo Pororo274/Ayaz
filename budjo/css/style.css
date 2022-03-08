@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+header{
+    background: #FFEAEA;
+    padding: 25px 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.add{
+    display: block;
+}
+
+.container{
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* main */
+
+.div_flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 175px;
+}
+
+.div_flex__card{
+    max-width: 410px;
+    padding: 38px 51px;
+    background: #FFEAEA;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.card_name{
+    margin-top: 55px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.card_price{
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.button{
+    display: block;
+    color: white;
+    background: #FF9393;
+    width: 298px;
+    text-align: center;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.card_button{
+    margin: 0 auto;
+}
+
+/* footer */
+footer{
+    background: #FFEAEA;
+    padding: 73px 0px;
+}
+
+.footer_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text1{
+    margin-bottom: 40px;
+}
+
+.footer_text>p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #414141;
+}
+
+/* modal */
+.modal{
+    text-align: center;
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.modal:target{
+    display: block;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 745px;
+    background: white;
+    padding: 41px 140px 41px 140px;
+    border-radius: 5px;
+}
+
+.modal_input{
+    width: 410px;
+    background: #FF9393;
+    outline: none;
+    padding: 20px 19px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.modal_input::placeholder{
+    color: white;
+}
+
+.modal_but{
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+textarea{
+    height: 131px;
+}
+
+.zagol_modal{
+    font-size: 30px;
+    font-weight: 600;
+   
+}
+
+.glav{
+    display: flex;
+    align-items: center;
+    margin-bottom: 65px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.crest_a{
+    display: block;
+}
+
+@media(max-width:1320px){
+    .container{
+        padding: 0px 15px;
+    }
+}
+
+@media(max-width:850px){
+    .div_flex{
+        justify-content: center;
+    }
+}
+
+@media(max-width:440px){
+    .div_flex__card{
+        width: 100%;
+    }
+    .card_img>img{
+        width: 100%;
+    }
+
+    .button{
+        width: 100%;
+    }
+
+    .footer_logo>img{
+        width: 100%;
+    }
+}
+
+@media(max-width:760px){
+    .content{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .modal_input{
+        width: 100%;
+    }
+
+    .modal_but{
+        width: 100%;
+    }
+}
+
+@media(max-width:815px){
+    .div_flex_cake{
+        justify-content: center;
+    }
+
+    .cake{
+        margin: 30px 0px;
+    }
+
+    .back{
+        text-align: center;
+        flex: 1;
+    }
+
+    .delete{
+        flex:1;
+        text-align: center;
+    }
+}
+
+@media(max-width:550px){
+    .cake>img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,47 @@
+/* section registration start */
+
+.registration{
+    padding-top: 122px;
+    padding-bottom: 146px;
+}
+
+
+.registration_zagolovok{
+    margin-bottom: 50px;
+}
+
+.registration_form_item{
+    margin-bottom: 20px;
+}
+
+
+.registration_button{
+    margin-top: 40px;
+    margin-bottom: 13px;
+    width: 100%;
+}
+
+.registration_uslovie{
+    font-size: 10px;
+    font-weight: 700;
+    color: #BBBBBB;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.registration_vhod{
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.registration_vhod_item{
+    color:#ECB968;
+}
+
+.registration_vhod_item:hover{
+    color: #c59a54;
+}
+
+/* section registration end */
+
